@@ -24,3 +24,13 @@ if y == 0:
     print("error")
 else:
     print(x/y)
+
+
+print ("------------ejercicio numero 6:-------------")
+
+edad = int(input("¿cual es tu edad?: "))
+ingresos_mensuales = int(input("¿cuales son tus ingresos mensuales?: "))
+if edad > 16 and ingresos_mensuales >= 1000:
+    print("debes de cotizar")
+else:
+    print("no debes cotizar")
